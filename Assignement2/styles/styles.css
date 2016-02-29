@@ -1,0 +1,106 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.logo {
+  color: #4c4c4c;
+   text-decoration: none;
+  background-color: black;
+  border: 2px;
+  color: #fff;
+  padding: 10px;
+  vertical-align: top;
+}
+
+.nav-wrapper ul {
+  margin: 20;
+  padding: -10;
+  list-style: none;
+  text-align: left;
+}
+.nav-wrapper li {
+  display: inline-block;
+  margin: 0 25px;
+  font-size: x-small;
+}
+
+.header-wrapper header{
+  text-align: center;
+}
+.header-wrapper h1 {
+  margin: 80;
+  line-height: 103px;
+  text-transform: uppercase;
+  color: #0a1c0f;
+  font-size: 58px;
+  font-weight: 500;
+}
+
+
+.sub-header-wrapper h3 {
+  color: #696969;
+  position: absolute;
+  top:210;
+  padding-left: 200px;
+  font-size: 23px;
+  font-weight: 100;
+  font-style: italic;
+  font-family: serif;
+}
+
+.latest-wrapper{
+  position: relative;
+}
+
+.latest-wrapper a{
+  color: #696969;
+  padding: 10px;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 100;
+  font-style: normal;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  background-color: white;
+  border: 1px solid #696969;
+  margin: 0 auto;
+  width: 200px;
+}
+
+.bottom-sub-header-wrapper h1{ 
+  text-align: center;
+  margin: 80;
+  line-height: 103px;
+  text-transform: uppercase;
+  color: #0a1c0f;
+  font-size: 40px;
+  font-weight: 500;
+}
+.bottom-sub-wrapper h3{
+ color: #696969;
+  position: absolute;
+  margin-top: 5;
+  padding-left: 200px;
+  font-size: 23px;
+  font-weight: 100;
+  font-style: italic;
+  font-family: serif;
+}
+
+
+
+hr{
+	border: none;
+	height: 1px;
+	width: 850;
+    /* Set the hr color */
+    /*color: #4c4c4c; /* old IE */
+    background-color: #cccccc; /* Modern Browsers */
+}
+
