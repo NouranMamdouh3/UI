@@ -168,3 +168,7 @@ tr:first-child{
     color: orange;
     margin-left: 20px;
   }
+  .sepertaion-img img{
+    margin-top: 10000px;
+    /* not working*/
+  }
