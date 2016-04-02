@@ -15,8 +15,8 @@ td:first-child{
 td:nth-child(2){
   width:20;
 }
-td:not(:nth-child(1)):not(:nth-child(2){
-  
+td:not(:nth-child(1)):not(:nth-child(2)){
+  width: 50;
 }
 tr{
   border-bottom: inset thin #fdfdfd;
@@ -162,8 +162,9 @@ tr:first-child{
     display: inline-block;
   }
   .total p:first-child{
-    margin-left: 580px;
+    margin-left: 370px;
   }
   .total p:last-child{
     color: orange;
+    margin-left: 20px;
   }
