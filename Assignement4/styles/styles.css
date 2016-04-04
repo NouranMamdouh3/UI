@@ -74,6 +74,9 @@ tr:first-child{
 
 .user-actions li:nth-child(1) a { color: orange; }
 
+.clearfix{
+  text-align: center;
+}
 .clearfix::before,
 .clearfix::after {
   content: "";
@@ -81,12 +84,6 @@ tr:first-child{
 }
 .clearfix::after {
   clear: both;
-}
-.Category{
-  margin-top: 20px;
-  border-bottom: solid;
-  padding: 80px;
-  text-align: center;
 }
 .Category h1 {
   text-transform: uppercase;
@@ -162,17 +159,24 @@ tr:first-child{
     display: inline-block;
   }
   .total p:first-child{
-    margin-left: 370px;
+    margin-left: 730px;
   }
   .total p:last-child{
     color: orange;
-    margin-left: 20px;
+    margin-left: 10px;
   }
   .sepertaion-img img{
+    text-align: center;
     margin-top: 10000px;
     /* not working*/
   }
   .shipping-address{
     margin-top: 50px;
     border:1px solid #f5f5f5;
+  }
+  .list{
+    border: 0px;
+  }
+  .personal-info{
+    display: inline-block;
   }
