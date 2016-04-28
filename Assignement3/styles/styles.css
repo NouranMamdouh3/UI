@@ -2,13 +2,15 @@
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+}
+.container{
   max-width: 1000px;
   margin: 0 auto;
+  border: 1px solid red;
 }
 .navigation li{
   display: inline-block;
   padding: 30 30 30 0px;
-
 }
 .navigation a{
   text-decoration: none;
@@ -16,8 +18,21 @@
 }
 .navigation div{
   float: left;
-  border-bottom-style: solid;
+  border-bottom: 1px solid grey;
 }
+.form{
+  display: inline-block;
+  float: right;
+}
+.navigation::before,
+.navigation::after {
+  content: "";
+  display: table;
+}
+.navigation::after {
+  clear: both;
+}
+
 .clearfix::before,
 .clearfix::after {
   content: "";
@@ -32,44 +47,52 @@ input[type="text"] {
    display: inline-block;
 }
 .title{
-  margin-left: 350px;
+  text-align: center;
 }
 .title h1{
- text-transform: uppercase;
- margin-bottom: 7px;
+  text-transform: uppercase;
+  margin-bottom: 7px;
 }
 .title a{
    text-decoration: underline;
    color: grey;
-   margin-left: 20px;
 }
 .items a{
-  width: 150px;
-  height: 200px;
+  width: 170px;
+  height: 230px;
   background: red;
   display: inline-block;
-  padding: 100px;
+  margin: 35px;
 }
 .items div{
+  text-align: center;
   display: inline-block;
 }
-.more-info img{
-  width: 700px;
-  height: 100px;
-  margin-left: 100px;
+.more-info{
+  text-align: center;
 }
+.more-info img{
+  width: 900px;
+  height: 100px;
+ 
+}
+
 .more-info h1{
-  margin-left: 250px;
   color: grey;
   text-transform: uppercase;
 }
+.summary{
+  text-align: center;
+}
 .summary div{
-  float: left;
-  border-right-style: solid;
+  display: inline-block;
+}
+.summary div:not(:last-child){
+  border-right: 1px solid grey;
 }
 .summary img{
-  width: 10px
-  height:10px;
+  width: 5px
+  height: 5px;
 }
 .summary ul{
   list-style-type: none;
