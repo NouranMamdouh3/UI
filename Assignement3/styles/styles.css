@@ -6,12 +6,10 @@
 .container{
   max-width: 1000px;
   margin: 0 auto;
-  border: 1px solid red;
 }
 .logo {
-  border: 1px;
-  color: white;
-  background: black;
+  border: 1px solid;
+  color: red;
   padding: 5px;
 }
 .navigation li{
@@ -23,7 +21,7 @@
   color: black;
 }
 .navigation{
-  border-bottom: 1px solid grey;
+  border-bottom: 1px solid #d3d3d3;
 }
 .navigation div{
   float: left;
@@ -75,15 +73,16 @@
 .items a{
   width: 170px;
   height: 230px;
-  border: 1px solid grey;
+  border: 1px solid #d3d3d3;
   display: inline-block;
-  margin: 35px;
+  margin: 30px;
 }
 .items div{
   text-align: center;
   display: inline-block;
 }
 .more-info{
+  border-top: 1px solid #d3d3d3;
   text-align: center;
 }
 .more-info img{
@@ -102,7 +101,7 @@
   display: inline-block;
 }
 .summary div:not(:last-child){
-  border-right: 1px solid grey;
+  border-right: 1px solid #d3d3d3;
 }
 .summary img{
   width: 5px
@@ -117,6 +116,18 @@
 .footer-helpers{
   float: left;
   width: 25%;
-  border-right: solid 1px;
+  border-right: solid 1px ;
   display: block;
-  }
+}
+.show-more{
+  font-style: italic;
+  font-family: serif;
+}
+.show-items{
+  display: inline-block;
+}
+.show-items img{
+  width: 15px;
+  margin: -2px;
+  margin-left: -5px;
+}
