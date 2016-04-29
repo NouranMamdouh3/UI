@@ -13,27 +13,19 @@
                 <li><a href="#">Woman</a></li>
                 <li><a href="#">Men</a></li>
                 <li><a href="#">Kids</a></li>
-                <li><a href="#">Kids</a></li>
                 <li><a href="#">Comming Soon</a></li>
                 <li><a href="#">About</a></li>
+                <li><a href="#"><img class = "extra-img" src="images/user.jpg" ></img>Hi, Michal</a>(<a class="logout" href="#"> logout</a>)</li>
+                <li><a href="#"><img class = "extra-img" src="images/basket.jpg" ></img>Backet(4)</a></li>
             </ul>  
         </div>
-
-        <div class="user-actions">
-            
-            <ul>
-                <li><a href="#">logout</a></li>
-                <li><a href="#">Backet(4)</a></li>
-            </ul>
-        </div>
-        <div class="search-form-clearfix">
-            <form >
-                <input type="text" placeholder="search"> 
-                <button class="searchbutton"></button>
-            </form>
+        <div class="search">
+            <input class="search-img" type="image"value="Find" src="images/search-button.jpg" />
+            <div class="placeholder">
+                <input class="search-placeholder" type="text" placeholder="search something..."  />
+            </div>
         </div>
     </div>
-        
     <div class="Category">
         <div class="clearfix">
             <h1>YOUR SHOPPING BAG</h1>
@@ -102,19 +94,16 @@
  			<p>Subtotal:</p>
  			<p>&#8364;567,95</p>
  		</div>	
- 		<div class"sepertaion-img">
- 		<img  src="images/Zigzag.JPG">
- 		</div>
- 		<div class="shipping-address">
+ 		<img  class"sepertaion-img" src="images/Zigzag.JPG">
+ 	<div class="shipping-address">
  			<div class="clearfix">
-            <h1>SHOPPING ADDRESS</h1>
-            <p>All fields are required</p>
+                <h1>SHOPPING ADDRESS</h1>
+                <p>All fields are required</p>
             </div>
-        
         <div>
-            <form>
+            <form class="form-method">
                 <div class="delivery-method">
-                    <p class="description"> SELECT DELIVERY METHOD </p>
+                    <p class="description"> select delivery method </p>
                     <br>
                     <select>
                         <option>DHL International - &#8364;15,00</option>
@@ -122,9 +111,8 @@
                         <option>DHL International - &#8364;15,00</option>
                         <option>DHL International - &#8364;15,00</option>
                     </select>
-                </div>
-                                    
-                <div class="gamb-b3d">
+                </div>                 
+                <div class="beside">
                     <div>
                         <label class="description">FIRST NAME</label><br>
                         <input type="text" name="firstname">
@@ -144,7 +132,7 @@
                     <label class="line">(line 2)</label><br>
                     <input class="address1" type="text" name="address-line2">
                 </div>
-                 <div class="gamb-b3d">
+                <div class="beside">
                     <div>
                         <label class="description">CITY</label><br>
                         <input type="text" name="city">
@@ -154,7 +142,7 @@
                         <input type="text" name="postalcode">
                     </div>       
                 </div>
-                <div class="gamb-b3d">
+                <div class="beside">
                     <div>
                         <label class="description">PHONE NUMBER</label><br>
                         <input type="text" name="phonenumber">
@@ -165,48 +153,65 @@
                     </div>       
                 </div>
                 <div>
-                    <input type="checkbox" name="vehicle" class="checkbox-form" value="Bike"/>I have a bike<br>
+                    <input type="checkbox" name="vehicle" class="checkbox-form" value="Bike"/>Use this address for Billing<br>
                 </div>
-            <form>
+            </form>
         </div>
- 	  </div>
-     </div>
-
     </div>
-        <hr>
+    <img class"sepertaion-img" src="images/zigzag.jpg">
+    <div class="payment-form">
+        <div class="clearfix">
+            <h1>payment options</h1>
+            <p>All fields are required</p>
+        </div>
+        <div class="payment">
+            <p>Subtotal: &euro;567,95</p>
+            <p>Shipping: &euro;15,00</p>
+            <p class="total-payment">Total: &euro;582,95</p>
+        </div>
+            <p class="description"> select payment method </p>
+            <div class="payment-method">
+                <select>
+                    <option value="Credit Card">Credit Card</option>
+                </select>
+            </div>
+            <button class="default extra-button"> order now </button>
+            </div>
+        </div>
+    </div> 
         <footer>
             <div class="footer-helpers clearfix">
                 <h1>Collection</h1>
                 <ul>
-                <li><a href="#">Woman(1725)</a></li>
-                <li><a href="#">Men(635)</a></li>
-                <li><a href="#">Kids(2514)</a></li>
-                <li><a href="#">Comming Soon(76)</a></li>   
-                </ul>
-                
+                    <li><a href="#">Woman(1725)</a></li>
+                    <li><a href="#">Men(635)</a></li>
+                    <li><a href="#">Kids(2514)</a></li>
+                    <li><a href="#">Comming Soon(76)</a></li>   
+                </ul>  
             </div>
             <div class="footer-helpers clearfix">
                 <h1>SITE</h1>
                 <ul>
-                <li><a href="#">Terms of Service</a></li>
-                <li><a href="#">Privacy Policy</a></li>
-                <li><a href="#">Copyright Policy</a></li>
-                <li><a href="#">Press Kit</a></li>
-                <li><a href="#">Support</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Copyright Policy</a></li>
+                    <li><a href="#">Press Kit</a></li>
+                    <li><a href="#">Support</a></li>
                 </ul>
             </div>
             <div class="footer-helpers clearfix">
                 <h1>SHOP</h1>
                 <ul>
-                <li><a href="#">About us</a></li>
-                <li><a href="#">Shipping Methods</a></li>
-                <li><a href="#">Career</a></li>
-                <li><a href="#">Contact</a></li>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Shipping Methods</a></li>
+                    <li><a href="#">Career</a></li>
+                    <li><a href="#">Contact</a></li>
                 </ul>
             </div>
             <div class="footer-helpers clearfix">
                 <h1>SOCIAL</h1>
                 <p>Soper is made with love in Warsaw,2014 &copy; All rights reserved.El Passion</p>
+                <img src="images/social.jpg">
             </div>
         </footer>
     </body>
