@@ -114,3 +114,9 @@
 .summary a{
   text-decoration: none;
 }
+.footer-helpers{
+  float: left;
+  width: 25%;
+  border-right: solid 1px;
+  display: block;
+  }
