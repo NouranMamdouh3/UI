@@ -8,8 +8,9 @@
   margin: 0 auto;
 }
 .logo {
-  border: 1px solid;
-  color: red;
+  border: 1px;
+  color: white;
+  background: black;
   padding: 5px;
 }
 .navigation li{
@@ -38,6 +39,7 @@
 .extra-img {
   width: 25px;
   height: 25px;
+  margin-top: -30px;
 }
 .logout {
   color: red;
@@ -87,12 +89,13 @@
 }
 .more-info img{
   width: 900px;
-  height: 100px;
+  height: 80px;
  
 }
 .more-info h1{
   color: grey;
-  text-transform: uppercase;
+  font-family: serif;
+  font-weight: italic;
 }
 .summary{
   text-align: center;
@@ -130,4 +133,71 @@
   width: 15px;
   margin: -2px;
   margin-left: -5px;
+}
+.footer-helpers img{
+  width: 100px;
+  height: 50px;
+}
+.search{
+  float: right;
+  margin-right: 40px;
+  display: inline-block;
+  margin-top: 30px;
+  border: 1px solid;
+}
+.search-img{
+  width: 30px;
+  height: 30px;
+  float: right;
+}
+.search-placeholder{
+  width: 100%;
+  height: 30px;
+}
+.placeholder{
+  overflow: hidden;
+}
+.navigation{
+  float: left;
+  margin: 0 25px;
+  display: inline-block;
+}
+.navigation li{
+  display: inline-block;
+  margin:7px;
+}
+.navigation a{
+  text-decoration: none;
+  color: black;
+}
+.nav-wrapper{
+   line-height: 60px;
+   border-bottom: 1px solid #dedede;
+}
+.nav-wrapper ul{
+  text-decoration: none;
+  list-style: none;
+  font-size: small;
+}
+.footer-helpers{
+    float: left;
+    width: 25%;
+    border-right: solid 1px #dedede;
+    display: inline-block;
+    color: grey;
+    text-align: center;
+    margin:0 auto;
+    margin-top: 50px;
+}  
+.footer-helpers ul{
+  float: left;
+  margin-top: 20px;
+}
+.footer-helpers a{
+  text-decoration: none;
+  color: black;
+  float: left;
+}
+.footer-helpers ul:last-child{
+  outline: none;
 }
